@@ -1,1 +1,31 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+}
+
+.contenedor {
+  color: black;
+  background: white;
+  border-radius: 15px;
+  width: 250px;
+  position: relative;
+  margin: 50px auto;
+  height: 345px;
+}
+
+#numero {
+  font-size: 100px;
+  text-align: center;
+}
+
+#palo {
+  padding: 10px;
+  font-size: 50px;
+}
+
+#palo2 {
+  padding: 10px;
+  font-size: 50px;
+  float: right;
+  transform: rotate(180deg);
+}
